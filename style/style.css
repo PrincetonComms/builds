@@ -51,14 +51,16 @@ h1
     text-transform: uppercase;
     font-weight: 800;
     font-size: 1.75rem;
-    background-color: #5ab0a7;
-    border: #5ab0a7;
+    background-color: #444;
+    border: #444;
+    color: #fff;
 }
 
 .nav-button a:hover,
 .nav-button a:active
 {
-    background-color: #444;
+    background-color: #555;
+    color: #fff;
 }
 
 footer
