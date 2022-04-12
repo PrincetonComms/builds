@@ -45,8 +45,7 @@ h1
 }
 
 .nav-button a,
-.nav-button a:focus,
-.nav-button a:active
+.nav-button a:focus
 {
     width: 100%;
     text-transform: uppercase;
@@ -56,7 +55,8 @@ h1
     border: #5ab0a7;
 }
 
-.nav-button a:hover
+.nav-button a:hover,
+.nav-button a:active
 {
     background-color: #444;
 }
