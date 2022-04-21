@@ -17,26 +17,8 @@ h1
 
 .princeton-builds
 {
-    font-size: 2rem;
-    font-weight: 800;
     margin:1rem 0 2rem 0;
-}
-
-.headline-top,
-.headline-bottom
-{
-    text-transform: uppercase;
-    line-height: 1.6rem;
-}
-
-.headline-top
-{
-    color: #444;
-}
-
-.headline-bottom
-{
-    color: #fff;
+    width: 15rem;
 }
 
 .nav-button
