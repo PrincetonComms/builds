@@ -52,7 +52,13 @@ footer
     width: 100%;
 }
 
-footer img
+footer .logo-pu img
 {
     height: 45px;
+}
+
+footer .logo-vf img
+{
+    height: 30px;
+    margin-top: 8px;
 }
