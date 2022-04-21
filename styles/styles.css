@@ -52,3 +52,7 @@ footer
     width: 100%;
 }
 
+footer img
+{
+    height: 45px;
+}
