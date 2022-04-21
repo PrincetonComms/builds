@@ -33,15 +33,15 @@ h1
     text-transform: uppercase;
     font-weight: 800;
     font-size: 1.75rem;
-    background-color: #444;
-    border: #444;
+    background-color: #0047AB;
+    border: #0047AB;
     color: #fff;
 }
 
 .nav-button a:hover,
 .nav-button a:active
 {
-    background-color: #555;
+    background-color: #0A87C2;
     color: #fff;
 }
 
