@@ -2,6 +2,7 @@ body
 {
     background-color: #e77500;
     margin: 2rem;
+
 }
 
 h1
@@ -9,16 +10,15 @@ h1
     display: none;
 }
 
-#content-wrapper
-{
-    position: relative;
-    min-height: 92vh;
-}
-
 .princeton-builds
 {
     margin:1rem 0 2rem 0;
     width: 15rem;
+}
+
+section
+{
+    margin: 2rem 0;
 }
 
 .nav-button,
@@ -28,36 +28,19 @@ h1
 }
 
 .nav-button a,
-.nav-button a:focus,
-.nav-button-mobility a,
-.nav-button-mobility a:focus
+.nav-button a:focus
 {
     width: 100%;
     text-transform: uppercase;
     font-weight: 800;
     font-size: 1.75rem;
-}
-
-.nav-button a,
-.nav-button a:focus
-{
     background-color: #0047AB;
     border: #0047AB;
     color: #fff;
 }
 
-.nav-button-mobility a,
-.nav-button-mobility a:focus
-{
-    background-color: #008080;
-    border: #008080;
-    color: #fff;
-}
-
 .nav-button a:hover,
-.nav-button a:active,
-.nav-button-mobility a:hover,
-.nav-button-mobility a:active
+.nav-button a:active
 {
     background-color: #0A87C2;
     color: #fff;
@@ -65,8 +48,6 @@ h1
 
 footer
 {
-    position: absolute;
-    bottom: 0;
     width: 100%;
 }
 
