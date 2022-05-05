@@ -21,25 +21,43 @@ h1
     width: 15rem;
 }
 
-.nav-button
+.nav-button,
+.nav-button-mobility
 {
     margin: 1rem 0;
 }
 
 .nav-button a,
-.nav-button a:focus
+.nav-button a:focus,
+.nav-button-mobility a,
+.nav-button-mobility a:focus
 {
     width: 100%;
     text-transform: uppercase;
     font-weight: 800;
     font-size: 1.75rem;
+}
+
+.nav-button a,
+.nav-button a:focus
+{
     background-color: #0047AB;
     border: #0047AB;
     color: #fff;
 }
 
+.nav-button-mobility a,
+.nav-button-mobility a:focus
+{
+    background-color: #008080;
+    border: #008080;
+    color: #fff;
+}
+
 .nav-button a:hover,
-.nav-button a:active
+.nav-button a:active,
+.nav-button-mobility a:hover,
+.nav-button-mobility a:active
 {
     background-color: #0A87C2;
     color: #fff;
